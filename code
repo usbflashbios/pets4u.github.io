@@ -1,0 +1,224 @@
+<html>
+	<head>
+	<meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pet Shop</title>
+	<link rel="icon" type="image/x-icon" href="petlogo.ico">
+<style>
+.rainbow {
+background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 3rem;
+font-weight: bold;
+}
+</style>
+<style>
+/* Alert container */
+.alert {
+padding: 15px;
+margin: 10px 0;
+border-radius: 5px;
+font-family: Arial, sans-serif;
+position: relative;
+}
+
+/* Alert types */
+.alert-success {
+background-color: #d4edda;
+color: #155724;
+border: 1px solid #c3e6cb;
+}
+
+.alert-warning {
+background-color: #fff3cd;
+color: #856404;
+border: 1px solid #ffeeba;
+}
+
+.alert-danger {
+background-color: #f8d7da;
+color: #721c24;
+border: 1px solid #f5c6cb;
+}
+
+/* Close button */
+.close-btn {
+position: absolute;
+top: 10px;
+right: 15px;
+background: none;
+border: none;
+font-size: 16px;
+cursor: pointer;
+}
+</style>
+<style>
+    body {
+      zoom: 1.75; /* 175% zoom */
+    }
+  </style>
+	<style>
+  body {
+    user-select: none; /* Prevents text selection */
+  }
+
+</style>
+ <style>
+    .typewriter {
+      font-family: monospace;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid rgb(0, 238, 255); /* Cursor effect */
+      animation: typing 4s steps(30, end), blink 0.5s step-end infinite;
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
+  </style>
+ <style>
+    /* Keyframes for the animation */
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    /* Styling the element */
+    .hidden-before-animation {
+      opacity: 0; /* Initially hidden */
+      animation: fadeIn 1.1s ease-in-out 1; /* Animation duration: 2s */
+      animation-delay: 4.2s; /* Delay before animation starts */
+      animation-fill-mode: forwards; /* Keeps the final state after animation */
+    }
+  </style>
+  <style>
+    /* Keyframes for the animation */
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    /* Styling the element */
+    .hidden-before-animation2 {
+      opacity: 0; /* Initially hidden */
+      animation: fadeIn 1s ease-in-out 1; /* Animation duration: 2s */
+      animation-delay: 5s; /* Delay before animation starts */
+      animation-fill-mode: forwards; /* Keeps the final state after animation */
+    }
+  </style>
+  <style>
+	.center {
+		text-align: center;
+	}
+  </style>
+  <style>
+	.orange {
+		text color: green;
+	}
+  </style>
+  <style>
+    .text-border {
+      display: inline; /* Ensures the border wraps tightly around the text */
+      border: 2px solid #000; /* Black border with 2px width */
+      padding: 5px; /* Adds space between the text and the border */
+      border-radius: 5px; /* Optional: Rounds the corners of the border */
+      background-color: #f0f0f0; /* Optional: Adds a background color */
+    }
+  </style>
+	</head>
+<body style="background-color: rgb(0, 238, 255);">
+<!-- Danger Alert -->
+<div class="alert alert-danger typewriter">
+<button class="close-btn" onclick="this.parentElement.style.display='none';">×</button>
+<strong>Error!</strong><strong>/System 32 Bypassed</strong><strong>/Launching Trojan virus on <a href ="/">You</a><strong>/Deleting System 32</strong><strong>/Bypassing Bios Settings</strong><strong>/Commensing in 3        2        1 Error!Error!Error!Error!</strong>
+</div>
+<!-- Success Alert -->
+<div class="hidden-before-animation alert alert-success typewriter bold">
+<button class="close-btn" onclick="this.parentElement.style.display='none';">×</button>
+<strong>Success!</strong> Your action was completed successfully
+</div>
+<!-- Warning Alert -->
+<div class="hidden-before-animation2 alert alert-warning bold typewriter">
+<button class="close-btn" onclick="this.parentElement.style.display='none';">×</button>
+<strong>Warning!</strong><strong> This Website is unsafe and malicious and may damage your components</strong>
+</div>
+	<div id="promo">
+		<div class="center rainbow bold">Free Shipping</div>
+		<div style="display:none;">New toys for puppies</div>
+		<div style="display:none;">Buy 5 toys and save 30%</div>
+		<div style="display:none;">Same day dispatch</div>
+		</div>
+	<div id="topMenu">
+		<div class="wrap">
+			<div id="topLinks">
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="wrap">
+		<div id="banner">
+			<h1 class="typewriter">PET SHOP</h1>
+			<div id="action">
+				<a href="https://discountpetsupplies.co.uk/" target="_blank" rel="noopener noreferrer">SHOP NOW</a>
+			</div>
+		</div>
+		<div class="clear spacer v80"></div>
+		<div id="fishFeuture" class="feature">
+			<div class="leftColumn">
+				<div class="text">
+					<h2 class = "typewriter">LOVE FISH</h2>
+					<div class="subheading">THE WIDEST RANGE OF FISHES</div>
+					<hr />
+					<p class="typewriter">Indoor and outdoor , we've got them all</p>
+					<div class="spacer v40"></div>
+					<a href="https://www.pexels.com/search/fish/" target="_blank" rel="noopener noreferrer">CLICK FOR FISH</a>
+				</div>
+			</div>
+			<div class="rightColumn">
+				<a class="featureImage" src="/Fish">
+					<img style = "width:100px;" src = "Fish.jpg" />
+				</a>
+			</div>
+		</div>
+		<div class="clear spacer v20"></div>
+		<div id="fishImage" class="middleImage">
+			<img style = "width:100px;"src = "Fish2.jpg" />
+		</div>
+		<div class="spacer v80"></div>
+		<div id="dogFeature" class="feature">
+			<div class="leftColumn">
+				<a class="featureImage">
+					<img style = "width:100px;"src="dog.jpg" />
+				</a>
+			</div>
+			<div class="rightColumn">
+				<div class="text">
+					<h2 class="typewriter">HAPPY DOGS</h2>
+					<div class="subheading">EVERYTHING YOUR DOG NEEDS</div>
+					<hr />
+					<p class="typewriter">Make sure your pooch eats well and feels good with our range of doggie treats.</p>
+					<div class="spacer v40"></div>
+					<a href="https://www.dogstrust.org.uk/" target="_blank" rel="noopener noreferrer">CLICK FOR DOGS</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<a class="logo" href="/">PET SHOP</a>
+	<hr />
+	<h1 class="center">Page <a href="file:///C:/Users/Adam/Downloads/vsc/test.html" target="_blank" rel="noopener noreferrer">2<span </a></h2>
+	</body>
+	</html>
