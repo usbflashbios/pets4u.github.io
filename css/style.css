@@ -1,0 +1,250 @@
+body {
+    background-color: #00e1ff;
+}
+
+a {
+    cursor: pointer;
+}
+
+.white {
+  color:#f0f0f0
+}
+
+body, html {
+      margin: 0;
+      padding: 0;
+    }
+    
+.header-main {
+    background-color:#000000;
+}
+
+.header-main-logo {
+    width: fit-content;
+    height: 100%;
+    padding-left: 60px;
+    display: flex;
+}
+
+.header-main-logo:hover {
+    width: fit-content;
+    height: 100%;
+    padding-left: 60px;
+    display: flex;
+    color: #ff0000;
+}
+
+.header-main-logo img {
+    height: 40px;
+    align-self: center;
+    margin-top: 11px;
+}
+
+.header-main-nav{
+    width: fit-content;
+    height: 100%;
+}
+
+.header-main-nav ul {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.header-main-nav ul li {
+    display: inline;
+    float: left;
+    line-height: 31px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%
+}
+
+.header-main-nav ul li a {
+    padding: 0 10px;
+    color:#f0f0f0
+  }
+
+.header-main-nav ul li a:hover {
+    padding: 0 10px;
+    color: #000000;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+
+.header-main-sm {
+    width: 120px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.header-main-sm-fb {
+    width: 20px;
+    height: 20px;
+    background-image: url(../facebook.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-main-sm-in {
+    width: 20px;
+    height: 20px;
+    background-image: url(../instagram.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: 1px solid #f0f0f0;
+}
+
+.header-main-sm-fb:hover {
+    width: 20px;
+    height: 20px;
+    background-image: url(../facebook-color.png);  
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+
+.header-main-sm-in:hover {
+    width: 20px;
+    height: 20px;
+    background-image: url(../instagram-color.png);  
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+
+
+.hover a:hover {
+    color: #ff0000;
+}
+
+.rainbow {
+background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 3rem;
+font-weight: bold;
+}
+
+.header-main-sm-in:hover {
+    background-image: url(../instagram-color.png);
+}
+
+/* Alert container */
+.alert {
+padding: 15px;
+margin: 10px 0;
+border-radius: 5px;
+font-family: Arial, sans-serif;
+position: relative;
+}
+
+/* Alert types */
+.alert-success {
+background-color: #d4edda;
+color: #155724;
+border: 1px solid #c3e6cb;
+}
+
+.alert-warning {
+background-color: #fff3cd;
+color: #856404;
+border: 1px solid #ffeeba;
+}
+
+.alert-danger {
+background-color: #f8d7da;
+color: #721c24;
+border: 1px solid #f5c6cb;
+}
+
+a {
+  color:  black;
+}
+
+a {
+  text-decoration: none; /* No underline by default */
+}
+
+/* Close button */
+.close-btn {
+position: absolute;
+top: 10px;
+right: 15px;
+background: none;
+border: none;
+font-size: 16px;
+cursor: pointer;
+}
+
+    body {
+      zoom: 1.75; /* 175% zoom */
+    }
+  
+  body {
+    user-select: none; /* Prevents text selection */
+  }
+
+    .typewriter {
+      font-family: monospace;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid rgb(0, 238, 255); /* Cursor effect */
+      animation: typing 4s steps(30, end), blink 0.5s step-end infinite;
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
+  
+    /* Keyframes for the animation */
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    /* Styling the element */
+    .hidden-before-animation {
+      opacity: 0; /* Initially hidden */
+      animation: fadeIn 1.1s ease-in-out 1; /* Animation duration: 2s */
+      animation-delay: 4.2s; /* Delay before animation starts */
+      animation-fill-mode: forwards; /* Keeps the final state after animation */
+    }
+  
+    /* Keyframes for the animation */
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    /* Styling the element */
+    .hidden-before-animation2 {
+      opacity: 0; /* Initially hidden */
+      animation: fadeIn 1s ease-in-out 1; /* Animation duration: 2s */
+      animation-delay: 5s; /* Delay before animation starts */
+      animation-fill-mode: forwards; /* Keeps the final state after animation */
+    }
+ 
+	.center {
+		text-align: center;
+	}
+  
+  
+    .text-border {
+      display: inline; /* Ensures the border wraps tightly around the text */
+      border: 2px solid #000; /* Black border with 2px width */
+      padding: 5px; /* Adds space between the text and the border */
+      border-radius: 5px; /* Optional: Rounds the corners of the border */
+      background-color: #f0f0f0; /* Optional: Adds a background color */
+    }
