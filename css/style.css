@@ -29,9 +29,10 @@ body, html {
   }
 
 .header-main-logo {
-    width: 100%;
+    width: fit-content;
     height: 100%;
     padding-left: 60px;
+    display: flex;
 }
 
 .header-main-logo img {
