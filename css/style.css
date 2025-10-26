@@ -25,6 +25,7 @@ body, html {
     height: 60px;
     background-color: transparent;
     justify-content: space-between;
+    display: flex;
   }
 
 .header-main-logo {
@@ -45,6 +46,10 @@ body, html {
 
 .header-main-nav ul {
     list-style: none;
+    display: flex;
+    padding-right: 60px;
+    align-items: center;
+    height: 100%;
 }
 
 .header-main-nav ul li {
