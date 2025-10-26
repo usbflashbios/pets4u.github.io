@@ -2,15 +2,6 @@ body {
     background-color: #00e1ff;
 }
 
-body:after {
-    position: absolute;
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    z-index: -1;
-    content: url(../facebook-color.png) url(../instagram-color.png)
-}
-
 a {
     cursor: pointer;
 }
@@ -48,7 +39,7 @@ body, html {
 .header-main-nav ul {
     list-style: none;
     display: flex;
-    padding-right: 90px;
+    padding-right: px;
     align-items: center;
     height: 100%;
 }
