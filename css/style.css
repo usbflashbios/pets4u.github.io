@@ -48,7 +48,7 @@ body, html {
 .header-main-nav ul {
     list-style: none;
     display: flex;
-    padding-right: 60px;
+    padding-right: 90px;
     align-items: center;
     height: 100%;
 }
