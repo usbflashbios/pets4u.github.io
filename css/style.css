@@ -14,7 +14,7 @@ body, html {
 .header-main {
     width: 100%;
     height: 60px;
-    background-color: transparent;
+    color: transparent;
     justify-content: space-between;
     display: flex;
   }
@@ -39,7 +39,7 @@ body, html {
 .header-main-nav ul {
     list-style: none;
     display: flex;
-    padding-right: px;
+    padding-right: 60px;
     align-items: center;
     height: 100%;
 }
