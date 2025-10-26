@@ -50,9 +50,8 @@ body, html {
 }
 
 .header-main-nav ul li {
-    display: inline;
+    display: flex;
     float: left;
-    line-height: 31px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -65,7 +64,7 @@ body, html {
     padding: 0 10px;
     color: #000000;
     background-color: #f0f0f0;
-    border-radius: 25px;
+    border-radius: 15px;
   }
 
 .header-main-sm {
