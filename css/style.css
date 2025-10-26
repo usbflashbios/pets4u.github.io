@@ -32,15 +32,6 @@ body, html {
     width: fit-content;
     height: 100%;
     padding-left: 60px;
-    display: flex;
-}
-
-.header-main-logo:hover {
-    width: fit-content;
-    height: 100%;
-    padding-left: 60px;
-    display: flex;
-    color: #ff0000;
 }
 
 .header-main-logo img {
