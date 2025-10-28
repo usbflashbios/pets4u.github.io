@@ -6,6 +6,15 @@ a {
     cursor: pointer;
 }
 
+body:after {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    content: url(img/facebook-color) url(img/instagram-color);
+}
+
 body, html , ul{
       margin: 0;
       padding: 0;
