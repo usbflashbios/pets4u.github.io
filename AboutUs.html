@@ -89,5 +89,18 @@
 	</div>
 	<a class="logo" href="/">PET SHOP</a>
 	<hr />
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			var navLinks = document.querySelectorAll('.header-main-nav ul li a');
+			var current = window.location.pathname.split('/').pop();
+			navLinks.forEach(function(link) {
+				if (link.getAttribute('href') === current ) {
+					link.classList.add('active');
+				} else {
+					link.classList.remove('active');
+				}
+			});
+		});
+	</script>
 	</body>
 	</html>
