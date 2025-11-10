@@ -190,10 +190,6 @@ font-size: 16px;
 cursor: pointer;
 }
 
-    body {
-      zoom: 1.25; /* 150% zoom */
-    }
-  
   body {
     user-select: none; /* Prevents text selection */
   }
