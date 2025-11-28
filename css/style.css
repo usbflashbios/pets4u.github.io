@@ -19,6 +19,15 @@ body, html , ul{
       margin: 0;
       padding: 0;
     }
+
+
+html, body {
+      min-width: 1024px; /* Set your desired minimum width */
+      margin: 0;
+      padding: 0;
+      overflow-x: auto; /* Allow horizontal scroll if needed */
+}
+
     
 .header-main {
     width: 100%;
